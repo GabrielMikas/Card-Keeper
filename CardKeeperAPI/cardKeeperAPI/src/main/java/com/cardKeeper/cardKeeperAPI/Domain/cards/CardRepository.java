@@ -1,4 +1,4 @@
-package com.cardKeeper.cardKeeperAPI.cards;
+package com.cardKeeper.cardKeeperAPI.Domain.cards;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

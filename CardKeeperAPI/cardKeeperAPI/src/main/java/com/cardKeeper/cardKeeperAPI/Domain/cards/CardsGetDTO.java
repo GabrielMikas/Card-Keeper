@@ -1,4 +1,4 @@
-package com.cardKeeper.cardKeeperAPI.cards;
+package com.cardKeeper.cardKeeperAPI.Domain.cards;
 
 public record CardsGetDTO(Long id, String CardName, String CardCode, String CardQuality, String CardsAmount) {
 
