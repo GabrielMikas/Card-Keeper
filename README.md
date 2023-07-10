@@ -8,19 +8,6 @@
    
 Vale notar que é um projeto em andamento e sujeito a melhorias constantes
 
-# Card Keeper-Desktop
-O Card Keeper-Desktop é o componente do sistema que apresenta um app com interface simples e CRUD completo conectado a um banco de dados MySQL, atualmente hospedado localmente, onde são armazenados os dados relevantes das cartas presentes na minha coleção.
-
-Nasce como o ponto inicial de desenvolvimento do projeto e tem como intuito praticar core skills de POO. Para tal, utilizei a linguagem Java 17 e para a criação da interface foi utilizado Java Swing.
-
-Tem como campos de input:
-- Card Name
-- Card Code
-- Card Quality
-- Card Amount
-
-  Após o input, os dados cadastrados no banco de dados são dispostos em uma tabela à direita contendo todos os dados de todas as cartas cadastradas até o momento.
-
 # Card KeeperAPI
 O Card KeeperAPI é o componente do sistema referente ao back-end e consiste numa RESTful API alimentada pelo banco de dados MySQL comum a todos os componentes do projeto.
 
@@ -64,3 +51,17 @@ Dos métodos DELETE presentes, temos:
 A adição mais recente do projeto, em construção HTML e Javascript, estilizado com bootstrap. Futuramente será migrado para ReactJS.
 
 Consta, no momento, apenas com um front-end consumindo a API e gerando pequenos elementos cards do bootstrap contendo as informaçoes de cada carta.
+
+# Card Keeper-Desktop - _Descontinuado_
+Em razão de ter servido seu proposito como forma de praticar e fundamentar conceitos core de OOP, o componente foi descontinuado de modo que mais tempo possa ser alocado ao componente front-end 
+O Card Keeper-Desktop é o componente do sistema que apresenta um app com interface simples e CRUD completo conectado a um banco de dados MySQL, atualmente hospedado localmente, onde são armazenados os dados relevantes das cartas presentes na minha coleção.
+
+Nasce como o ponto inicial de desenvolvimento do projeto e tem como intuito praticar core skills de POO. Para tal, utilizei a linguagem Java 17 e para a criação da interface foi utilizado Java Swing.
+
+Tem como campos de input:
+- Card Name
+- Card Code
+- Card Quality
+- Card Amount
+
+  Após o input, os dados cadastrados no banco de dados são dispostos em uma tabela à direita contendo todos os dados de todas as cartas cadastradas até o momento.
