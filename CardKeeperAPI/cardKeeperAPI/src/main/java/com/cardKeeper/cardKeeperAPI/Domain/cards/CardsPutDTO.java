@@ -8,6 +8,8 @@ public record CardsPutDTO(
         String CardName,
         String CardCode,
         String CardQuality,
-        String CardsAmount) {
+        String CardsAmount,
+        String CardSleeve,
+        String CardImage) {
 
 }

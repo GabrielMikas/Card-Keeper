@@ -19,12 +19,16 @@ public class Cards {
     private String CardCode;
     private String CardQuality;
     private String CardsAmount;
+    private String CardSleeve;
+    private String CardImage;
 
     public Cards(CardsPostDTO objCardsDTO) {
         this.CardName = objCardsDTO.CardName();
         this.CardCode = objCardsDTO.CardCode();
         this.CardQuality = objCardsDTO.CardQuality();
         this.CardsAmount = objCardsDTO.CardsAmount();
+        this.CardSleeve = objCardsDTO.CardSleeve();
+        this.CardImage = objCardsDTO.CardImage();
     }
 
     public void Update(CardsPutDTO cardsPUT){

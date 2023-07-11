@@ -7,7 +7,16 @@ async function getAllCards(){
     console.log(data);
     data.map((card) => cardBuilder(card))
 }
-
+function isSleeved(cardData){
+    let isCardSleeved;
+    if(cardData.CardSleeve == 0){
+        isCardSleeved = " No"
+    }
+    else{
+        isCardSleeved = " Yes"
+    }
+    return isCardSleeved;
+}
 function cardBuilder(cardData){
     let main = document.getElementById("mainRow")
 
@@ -25,13 +34,13 @@ function cardBuilder(cardData){
     let cardSleeve = document.createElement("p")
     
     //This will get the json field in the future
-    cardImage.src = "https://www.duelshop.com.br/5728-large_default/blue-eyes-white-dragon-ldk2-enk01-common.jpg"
+    cardImage.src = cardData.CardImage
     cardName.innerHTML = `Name: ${cardData.CardName}`
     cardCode.innerHTML = `Code: ${cardData.CardCode}`
     cardsAmount.innerHTML = `Number of cards: ${cardData.CardsAmount}`
     cardQuality.innerHTML = `Card Quality: ${cardData.CardQuality}`
     //This will get the json field in the future
-    cardSleeve.innerHTML = `Card Sleeved: Yes`
+    cardSleeve.innerHTML = `Card Sleeved:` + isSleeved(cardData)
 
 
     cardText.classList.add("card-text")
@@ -63,4 +72,5 @@ function cardBuilder(cardData){
 }
 
 getAllCards();
+
 
