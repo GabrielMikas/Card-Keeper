@@ -59,6 +59,8 @@ Consta com elementos card do bootstrap contando com:
 - A qualidade da carta
 - A quantidade de cartas
 - O status sobre a carta estár ou não em um sleeve
+
+Todos dados obtidos diretamente da Card Keeper API por meio de fetch()
 # Card Keeper-Desktop - _Descontinuado_
 ***Em razão de ter servido seu proposito como forma de praticar e fundamentar conceitos core de OOP, o componente foi descontinuado de modo que mais tempo possa ser alocado ao componente front-end.***
 
