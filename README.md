@@ -53,7 +53,8 @@ A adição mais recente do projeto, em construção HTML e Javascript, estilizad
 Consta, no momento, apenas com um front-end consumindo a API e gerando pequenos elementos cards do bootstrap contendo as informaçoes de cada carta.
 
 # Card Keeper-Desktop - _Descontinuado_
-Em razão de ter servido seu proposito como forma de praticar e fundamentar conceitos core de OOP, o componente foi descontinuado de modo que mais tempo possa ser alocado ao componente front-end 
+***Em razão de ter servido seu proposito como forma de praticar e fundamentar conceitos core de OOP, o componente foi descontinuado de modo que mais tempo possa ser alocado ao componente front-end.***
+
 O Card Keeper-Desktop é o componente do sistema que apresenta um app com interface simples e CRUD completo conectado a um banco de dados MySQL, atualmente hospedado localmente, onde são armazenados os dados relevantes das cartas presentes na minha coleção.
 
 Nasce como o ponto inicial de desenvolvimento do projeto e tem como intuito praticar core skills de POO. Para tal, utilizei a linguagem Java 17 e para a criação da interface foi utilizado Java Swing.
