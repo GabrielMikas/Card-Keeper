@@ -58,7 +58,7 @@ Consta com elementos card do bootstrap contando com:
 - O código da carta
 - A qualidade da carta
 - A quantidade de cartas
-- O status sobre a carta estár ou não em um sleeve
+- O status sobre a carta estar ou não em um sleeve
 
 Todos dados obtidos diretamente da Card Keeper API por meio de fetch()
 # Card Keeper-Desktop - _Descontinuado_
