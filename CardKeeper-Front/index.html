@@ -9,9 +9,50 @@
 </head>
 <body>
     <div id="container">
-        <div class="row m-5" id="mainRow">
+        <div class="bg-black bg-gradient">
+            
+                
+                    <div class="offcanvas offcanvas-start text-bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                        <div class="offcanvas-body">
+                            <div class="card p-3 text-bg-dark border border-info mt-5">
+                                <form for="" id="card-input-form">
+                                    <label class="form-label m-0" for="">Card Name:</label>
+                                    <input class="form-control mb-2" type="text" id="input-CardName" placeholder="What is the card's name?" required>
+                                    <label class="form-label m-0" for="">Card Code:</label>
+                                    <input class="form-control mb-2" type="text" id="input-CardCode" placeholder="What is the card's name?" required>
+                                    <label  class="form-label m-0" for="">Card Amount:</label>
+                                    <input class="form-control mb-2" type="text" id="input-CardAmount" placeholder="What is the card's name?" required>
+                                    <label class="form-label m-0" for="">Card Quality:</label>
+                                    <input class="form-control mb-2" type="text" id="input-CardQuality" placeholder="What is the card's name?" required>
+                                    <label class="form-label m-0" for="">Card Sleeved:</label>
+                                    <input class="form-control mb-2" type="number" id="input-CardSleeve" placeholder="Is the card sleeved?" required>
+                                    <label class="form-label m-0" for="">Card Image:</label>
+                                    <input class="form-control mb-2" type="text" id="input-CardImage" placeholder="What is the URL of the image?" required>
+                                    <input class="btn btn-secondary" type="submit" value="Register">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark bg-gradient ps-3 mb-5 pt-3">
+                        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasLabel">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
+                    
+    
+                    
+                       
+                        
+                    
+                    
+                
+               
+            
+            <div class="row ms-3 me-3" id="mainRow">   
+            </div>
             
         </div>
+        
 
     </div>
     <script src="./src/script.js"></script>
