@@ -17,6 +17,8 @@ Uma carta na API possui:
 - CardCode, referente ao código fisico da carta no banco de dados
 - CardQuality, referente à qualidade da carta no banco de daod
 - CardsAmount, referente à quantidade de cartas similares no banco de dados
+- CardSleeve, referente à carta estar ou não em um sleeve
+- CardImage, referente à imagem correspondente à carta
 
 Até sua ultima atualização, a API conta com:
 - Métodos GET, PUT, POST, DELETE devidamente implementados
@@ -50,8 +52,15 @@ Dos métodos DELETE presentes, temos:
 # Card Keeper-Front
 A adição mais recente do projeto, em construção HTML e Javascript, estilizado com bootstrap. Futuramente será migrado para ReactJS.
 
-Consta, no momento, apenas com um front-end consumindo a API e gerando pequenos elementos cards do bootstrap contendo as informaçoes de cada carta.
+Consta com elementos card do bootstrap contando com:
+- Uma imagem referente à carta
+- O nome da carta
+- O código da carta
+- A qualidade da carta
+- A quantidade de cartas
+- O status sobre a carta estar ou não em um sleeve
 
+Todos dados obtidos diretamente da Card Keeper API por meio de fetch()
 # Card Keeper-Desktop - _Descontinuado_
 ***Em razão de ter servido seu proposito como forma de praticar e fundamentar conceitos core de OOP, o componente foi descontinuado de modo que mais tempo possa ser alocado ao componente front-end.***
 
