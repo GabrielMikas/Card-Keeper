@@ -52,7 +52,7 @@ function cardBuilder(cardData){
 
     cardText.classList.add("card-text")
     cardText.classList.add("border")
-    cardText.classList.add("border-info")
+    cardText.classList.add("border-secondary")
     cardText.classList.add("text-light")
     cardImage.classList.add("card-img-top")
     cardImage.classList.add("mb-3")
@@ -63,7 +63,7 @@ function cardBuilder(cardData){
     card.classList.add("bg-dark")
     cardBody.classList.add("card-body")
     cardBody.classList.add("border")
-    cardBody.classList.add("border-info")
+    cardBody.classList.add("border-secondary")
    
     
     cardText.appendChild(cardName)
